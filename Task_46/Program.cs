@@ -9,7 +9,7 @@ int[,] GetArray(int a, int b)
     {
         for (int j = 0; i < array.GetLength(1); j++)
         {
-            array [i,j] = rnd.Next();
+            array [i,j] = rnd.Next(10);
         }
     }
     return array;
